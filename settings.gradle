@@ -1,0 +1,13 @@
+
+
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'io.quarkus' version '1.7.1.Final'
+    }
+}
+
+rootProject.name = 'quarkus-lambda'
